@@ -13,6 +13,8 @@ public class Exercise4 {
 
         // Get the value from the Mono into an integer variable
         // TODO: Write code here
+        Integer number = ReactiveSources.intNumberMono().block();
+        System.out.println(number);
 
         System.out.println("Press a key to end");
         System.in.read();
