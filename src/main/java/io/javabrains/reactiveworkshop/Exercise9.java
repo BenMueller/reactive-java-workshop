@@ -13,7 +13,7 @@ public class Exercise9 {
         // TODO: Write code here
 
         // Collect all items of intNumbersFlux into a single list and print it
-        // TODO: Write code here
+        ReactiveSources.intNumbersFlux().collectList().subscribe(list -> list.forEach(System.out::println));
 
         // Transform to a sequence of sums of adjacent two numbers
         // TODO: Write code here
