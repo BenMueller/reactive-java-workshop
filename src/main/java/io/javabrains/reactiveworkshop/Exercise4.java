@@ -12,7 +12,6 @@ public class Exercise4 {
         ReactiveSources.intNumberMono().subscribe(System.out::println);
 
         // Get the value from the Mono into an integer variable
-        // TODO: Write code here
         Integer number = ReactiveSources.intNumberMono().block();
         System.out.println(number);
 
